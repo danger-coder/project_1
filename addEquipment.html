@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class='sidebar'>
+            <div class="logo">
+                <img src="assets/Layer 3.svg" alt="" />
+            </div>
+            <span class='line'></span>
+            <div class="menus">
+                <div class="menu_item">
+                    <img src="assets/darhboard.svg" alt="" />
+                    <p>Dashboard</p>
+                </div>
+                <a href="index.html" class="nav">
+                    <div class="menu_item id" onClick={bgChange}>
+                        <img src="/assets/Group 9725.svg" alt="" />
+                        <p>Setup</p> <img src="/assets/Expand_left.svg" alt="" class='arrow' />
+                    </div>
+                </a>
+                <a href="document.html">
+                    <div class="menu_item">
+                        <img src="assets/Paper_light.svg" alt="" />
+                        <p>Documents</p><img src="assets/Expand_left.svg" alt="" class='arrow' />
+                    </div>
+                </a>
+                <a href="addEquipment.html">
+                    <div class="menu_item">
+                        <img src="/assets/CPU_light.svg" alt="" />
+                        <p>Equipment</p><img src="assets/Expand_left.svg" alt="" class='arrow' />
+                    </div>
+                </a>
+                <div class="menu_item">
+                    <img src="assets/Question.svg" alt="" />
+                    <p>Help</p>
+                </div>
+                <div class="sign_out">
+                    <img src="/assets/Sign_out_squre.svg" alt="" />
+                    <p>Sign out</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="main">
+
+
+            <div class='topbar'>
+                <div class="left">
+                    <div class="text">
+                        <h1>Add Equipment Type</h1>
+                        <p>Add all the equipments.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="searchbox">
+                        <input type="text" placeholder='Search...' /><img src="/assets/032-search.svg" alt="" />
+                    </div>
+                    <div class="box-avtar">
+                        <div class="bell_icon">
+                            <img src="/assets/bell-Filled.svg" alt="" />
+                            <span></span>
+                        </div>
+                        <span class='line'></span>
+                        <div class="name">
+                            <h2>Courtney Henry</h2>
+                            <p>Welcome Back</p>
+                        </div>
+                        <div class="avtar-img">
+                            <img src="/assets/avtar2.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="heading">
+                <h3>Setup / Asset / Add Equipment Type</h3>
+            </div>
+            <div class="hello"></div>
+            <h2 class="form_title">Equipment Type Information</h2>
+            <form action="">
+                <div class="equipment_name">
+                    <label for="">Equipment Name <span>*</span></label>
+                    <input type="text" placeholder="Your equipment name">
+                </div>
+                <div class="equipment_description">
+                    <label for="">Equipment Description <span>*</span></label>
+                    <div class="text_field">
+                        <input type="text" placeholder="Equipment Description ">
+                    </div>
+
+                </div>
+                <div class="input_container">
+                    <div class="left">
+                        <label for="">Equipment Type</label>
+                        <input type="text">
+                    </div>
+                    <div class="right">
+                        <label for="">Discipline <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="input_contaienr2">
+                    <div class="risk">
+                        <p>Risk Type <span>*</span></p>
+                        <div class="radio_btns">
+                            <div>
+                                <input type="radio">
+                                <label>Very low</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label>low</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label>Very High</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label>High</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="easy_to_access">
+                        <label for="">Equipment Access Rating <span>*</span></label>
+                        <div class="select_btn">
+                            <p>Easy to access</p> <img src="/assets/arrowD.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="input_container">
+                    <div class="left">
+                        <label for="">Navigation Level <span style="color:red ;">*</span></label>
+                        <div class="navigation_level">
+                            <p>Navigation Level</p> <img src="/assets/arrowD.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <label for="">Navigation Code<span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="input_container">
+                    <div class="left">
+                        <label for="">Navigation Parent Code <span style="color:red ;"> *</span></label>
+                        <input type="text" placeholder="Navigation Parent Code">
+                    </div>
+                    <div class="right">
+                        <label for="">Parent Eq. Item<span>*</span></label>
+                        <input type="text" placeholder="Parent Eq. Item">
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="cancel">Cancel</button>
+                    <button class="save">Save Changes</button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
