@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="assets/Layer 3.svg" alt="" />
+            </div>
+            <span class="line"></span>
+            <div class="menus">
+                <div class="menu_item">
+                    <img src="assets/darhboard.svg" alt="" />
+                    <p>Dashboard</p>
+                </div>
+                <a href="index.html" style="display: flex">
+                    <div class="menu_item setup_link">
+                        <img src="/assets/Group 9725.svg" alt="" />
+                        <p>Setup</p>
+                        <img src="/assets/Expand_left.svg" alt="" class="arrow" />
+
+                        <ul class="nav_links">
+                            <li class="user_link">
+                                <a href="" class="user">Users</a>
+                                <img src="/assets/rightarrow.png" alt="" />
+
+                                <ul class="manage">
+                                    <li><a href="">Manage Users</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Area</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Documents</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Unit of Measures</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Risk Type</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Access Rating Type</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Failure Modes</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Criticality</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Hazard Catagory</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Probability</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Severity</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Menu</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                            <li>
+                                <a href="">Role</a><img src="/assets/rightarrow.png" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="document.html">
+                    <div class="menu_item">
+                        <img src="assets/Paper_light.svg" alt="" />
+                        <p>Documents</p>
+                        <img src="assets/Expand_left.svg" alt="" class="arrow" />
+                    </div>
+                </a>
+                <a href="addEquipment.html">
+                    <div class="menu_item">
+                        <img src="/assets/CPU_light.svg" alt="" />
+                        <p>Equipment</p>
+                        <img src="assets/Expand_left.svg" alt="" class="arrow" />
+                    </div>
+                </a>
+                <div class="menu_item">
+                    <img src="assets/Question.svg" alt="" />
+                    <p>Help</p>
+                </div>
+                <a href="./sign.html">
+                    <div class="sign_out">
+                        <img src="/assets/Sign_out_squre.svg" alt="" />
+                        <p>Sign out</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="left">
+                    <div class="text">
+                        <h1>Roles</h1>
+                        <p>Manage the roles of users.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box-avtar">
+                        <div class="bell_icon">
+                            <img src="/assets/bell-Filled.svg" alt="" />
+                            <span></span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="name">
+                            <h2>Courtney Henry</h2>
+                            <p>Welcome Back</p>
+                        </div>
+                        <div class="avtar-img">
+                            <img src="/assets/avtar2.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <h3>Setup / Roles / Manage Roles</h3>
+            </div>
+            <div class="roles_btns">
+                <div class="searchrole">
+                    <img src="/assets/032-search.svg" alt="" /> <input type="text" placeholder="Search..." />
+                </div>
+                <div class="btn_role">
+                    <img src="/assets/Add_round.png" alt="" /> <button>Add Users</button>
+                </div>
+            </div>
+            <table class="role_table">
+                <tr class="head">
+                    <th>Role Name</th>
+                    <th>Created By </th>
+                    <th>Status</th>
+                    <th style="border-top-right-radius: 10px" class="actions">Action</th>
+                </tr>
+                <tr class="row">
+                    <td class="first">
+                        Role 3
+                    </td>
+                    <td>Wade Warren</td>
+                    <td><button class="active">Active</button></td>
+                    <td class="action_btn_role">
+                        <img src="/assets/updownarrow.svg" alt="" />
+
+                        <img src="/assets/dot.svg" alt="" class="dots" />
+                        <!-- <div class="assign">
+                  <ul>
+                    <li>
+                      <h class="manage">
+                        Manage Permission <img src="./images/arrowD.png" alt="" />
+                      </h>
+                      <div class="menu">
+                        <h3>
+                          Assing Role
+                          <img src="./images/Vector 11.png" alt="" />
+                        </h3>
+                        <span class="line1"></span>
+                        <div class="sub-menu">
+                          <form action="#">
+                            <div class="box">
+                              <input
+                                type="checkbox"
+                                value="person"
+                                name="Admin"
+                                id="admin"
+                              />
+                              <label for="admin"><span></span> Admin</label>
+                            </div>
+                            <div class="box">
+                              <input
+                                type="checkbox"
+                                value="person"
+                                name="User"
+                                id="user"
+                              />
+                              <label for="user"><span></span> User</label>
+                            </div>
+                            <div class="box">
+                              <input
+                                type="checkbox"
+                                value="person"
+                                name="Supervisor"
+                                id="super"
+                              />
+                              <label for="super"
+                                ><span></span> Supervisor</label
+                              >
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div> -->
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="first">
+                        Admin 12
+                    </td>
+                    <td>Robert Fox</td>
+                    <td><button class="active">Active</button></td>
+                    <td class="action_btn_role">
+                        <img src="/assets/updownarrow.svg" alt="" />
+
+                        <img src="/assets/dot.svg" alt="" class="dots" />
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="first">
+                        Accounting
+                    </td>
+                    <td>Jacob Jones</td>
+                    <td><button class="active">Active</button></td>
+                    <td class="action_btn_role">
+                        <img src="/assets/updownarrow.svg" alt="" />
+
+                        <img src="/assets/dot.svg" alt="" class="dots" />
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="first">
+                        User
+                    </td>
+                    <td>Esther Howard</td>
+                    <td>
+                        <button class="inactive" style="color: red; border-color: red">
+                            Inactive
+                        </button>
+                    </td>
+                    <td class="action_btn_role">
+                        <img src="/assets/updownarrow.svg" alt="" />
+
+                        <img src="/assets/dot.svg" alt="" class="dots" />
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="first">
+                        Admin
+                    </td>
+                    <td>Lestle Alexander</td>
+                    <td>
+                        <button class="inactive" style="color: red; border-color: red">
+                            Inactive
+                        </button>
+                    </td>
+                    <td class="action_btn_role">
+                        <img src="/assets/updownarrow.svg" alt="" />
+
+                        <img src="/assets/dot.svg" alt="" class="dots" />
+
+                    </td>
+                </tr>
+            </table>
+            <div class="table_footer">
+                <div class="show">
+                    <p>Showing 1-6 of 35 users</p>
+                </div>
+                <div class="navigation_btns">
+                    <div class="left">
+                        <p>Show 6 users</p>
+                        <img src="/assets/arrowdown.png" alt="" />
+                    </div>
+                    <div class="right">
+                        <div class="left_btn">
+                            <img src="/assets/Expand_left.png" alt="" />
+                            <button>Previous</button>
+                        </div>
+                        <div class="right_btn">
+                            <button>Next</button>
+                            <img src="/assets/rightarrow.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+.container {
+    .main {
+
+
+        .main_btns {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 20px;
+
+            .btn3 {
+                box-sizing: border-box;
+
+                display: flex;
+                align-self: center;
+
+                background: #3AB4F2;
+                width: 147px;
+                height: 40px;
+                padding: 8px 16px;
+                border-radius: 8px;
+                cursor: pointer;
+                filter: drop-shadow(0px 4px 4px rgba(58, 180, 242, 0.15));
+
+                button {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    color: #FFFFFF;
+                    border: none;
+                    background: transparent;
+                    white-space: pre;
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+
+
+                }
+            }
+
+            .btn2 {
+                box-sizing: border-box;
+                // position: absolute;
+                // top: 138px;
+                // left: 74%;
+                display: flex;
+                align-self: center;
+                right: 30px;
+                background: #3AB4F2;
+                width: 134px;
+                height: 40px;
+                background: #F2783A;
+                border-radius: 8px;
+                padding: 8px 16px;
+
+                cursor: pointer;
+                filter: drop-shadow(0px 4px 4px rgba(58, 180, 242, 0.15));
+
+                button {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    color: #FFFFFF;
+                    border: none;
+                    background: transparent;
+                    white-space: pre;
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 10px;
+
+
+                }
+            }
+
+            .seach_btn_equipment {
+                width: 220px;
+                height: 40px;
+                background: #F9F9FE;
+                border: 1px solid #C1BBB9;
+                border-radius: 35px;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                // position: absolute;
+                // left: 55%;
+                // top: 138px;
+
+                input {
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    margin-left: 10px;
+
+                    &::placeholder {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 18px;
+                        letter-spacing: 0.4px;
+                        color: #C1BBB9;
+                    }
+                }
+            }
+        }
+
+        .table {
+            margin-top: 20px;
+
+            .head {
+                th {
+                    &:last-child {
+                        padding-left: 40px;
+                        padding-right: 54px;
+                    }
+                }
+            }
+
+            .row {
+                td {
+                    &:last-child {
+                        padding-left: 40px;
+                        padding-right: 35px;
+                    }
+                }
+
+                .less {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 20px;
+                    gap: 10px;
+                    width: 106.63px;
+                    height: 32px;
+                    border: none;
+                    background: rgba(66, 173, 84, 0.16);
+                    border-radius: 56px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #42AD54;
+                    cursor: pointer;
+                }
+
+                .excess {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 20px;
+                    gap: 10px;
+                    width: 106.63px;
+                    height: 32px;
+                    background: rgba(179, 35, 24, 0.16);
+                    border-radius: 56px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #B32318;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .medium {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 20px;
+                    gap: 10px;
+                    width: 106.63px;
+                    height: 32px;
+                    background: rgba(242, 223, 58, 0.16);
+                    border-radius: 56px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #F2DF3A;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .action_btn {
+
+                    .switch {
+                        position: relative;
+                        display: inline-block;
+                        width: 30.91px;
+                        height: 17px;
+                    }
+
+                    .switch input {
+                        opacity: 0;
+                        width: 0;
+                        height: 0;
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 15.45px;
+                        width: 15.45px;
+                        left: 2px;
+                        bottom: 1px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked+.slider {
+                        background-color: #2196F3;
+                    }
+
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #2196F3;
+                    }
+
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(13px);
+                        -ms-transform: translateX(13px);
+                        transform: translateX(13px);
+                    }
+
+                    /* Rounded sliders */
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+
+    }
+}
