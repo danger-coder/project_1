@@ -174,8 +174,9 @@ a {
 
                 .task_body {
                     margin-top: 10px;
-                    width: 653px;
-                    height: 161px;
+                    // width: 653px;
+                    max-width: 958px;
+                    height: 107px;
                     background: #FFFFFF;
                     border: 1px solid #DBDBDB;
                     border-radius: 10px;
@@ -215,23 +216,26 @@ a {
                         }
 
                         .value {
-                            margin-left: 65px
+                            margin-left: 30px
+                        }
+                        .trade{
+                            margin-left: 120px;
                         }
                     }
 
-                    .div_3 {
-                        @extend .div_1;
-                        gap: 140px;
-                        background: #F2FAFF;
+                    // .div_3 {
+                    //     @extend .div_1;
+                    //     gap: 140px;
+                    //     background: #F2FAFF;
 
-                        span {
-                            margin-left: 30px;
-                        }
+                    //     span {
+                    //         margin-left: 30px;
+                    //     }
 
-                        .value {
-                            margin-left: 82px;
-                        }
-                    }
+                    //     .value {
+                    //         margin-left: 82px;
+                    //     }
+                    // }
                 }
             }
 

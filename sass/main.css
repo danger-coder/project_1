@@ -411,8 +411,8 @@ a {
 }
 .document .document_body .right_body .task_description .task_body {
   margin-top: 10px;
-  width: 653px;
-  height: 161px;
+  max-width: 958px;
+  height: 107px;
   background: #FFFFFF;
   border: 1px solid #DBDBDB;
   border-radius: 10px;
@@ -423,7 +423,7 @@ a {
   line-height: 24px;
   color: #5C5451;
 }
-.document .document_body .right_body .task_description .task_body .div_1, .document .document_body .right_body .task_description .task_body .div_3, .document .document_body .right_body .task_description .task_body .div_2 {
+.document .document_body .right_body .task_description .task_body .div_1, .document .document_body .right_body .task_description .task_body .div_2 {
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -432,10 +432,10 @@ a {
   background: #F2FAFF;
   border-bottom: 1px solid #DBDBDB;
 }
-.document .document_body .right_body .task_description .task_body .div_1 span, .document .document_body .right_body .task_description .task_body .div_3 span, .document .document_body .right_body .task_description .task_body .div_2 span {
+.document .document_body .right_body .task_description .task_body .div_1 span, .document .document_body .right_body .task_description .task_body .div_2 span {
   margin-left: 30px;
 }
-.document .document_body .right_body .task_description .task_body .div_1 .value, .document .document_body .right_body .task_description .task_body .div_3 .value, .document .document_body .right_body .task_description .task_body .div_2 .value {
+.document .document_body .right_body .task_description .task_body .div_1 .value, .document .document_body .right_body .task_description .task_body .div_2 .value {
   margin-left: 20px;
 }
 .document .document_body .right_body .task_description .task_body .div_2 {
@@ -446,17 +446,10 @@ a {
   margin-left: 20px;
 }
 .document .document_body .right_body .task_description .task_body .div_2 .value {
-  margin-left: 65px;
-}
-.document .document_body .right_body .task_description .task_body .div_3 {
-  gap: 140px;
-  background: #F2FAFF;
-}
-.document .document_body .right_body .task_description .task_body .div_3 span {
   margin-left: 30px;
 }
-.document .document_body .right_body .task_description .task_body .div_3 .value {
-  margin-left: 82px;
+.document .document_body .right_body .task_description .task_body .div_2 .trade {
+  margin-left: 120px;
 }
 .document .document_body .right_body .document_footer {
   width: 968px;
@@ -1325,6 +1318,7 @@ a {
   height: 527px;
   width: 1170px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container .mains .permission_scroll .scroll_div .permision_text_setup, .container .mains .permission_scroll .scroll_div .permision_text_document {
   margin-bottom: 10px;
@@ -2305,6 +2299,32 @@ a {
 }
 .container .main .role_table .row .action_btn_role img {
   cursor: pointer;
+}
+.container .main .role_table .row .action_btn_role .hover_dots {
+  position: relative;
+}
+.container .main .role_table .row .action_btn_role .hover_dots:hover a {
+  opacity: 1;
+}
+.container .main .role_table .row .action_btn_role .hover_dots a {
+  opacity: 0;
+  position: absolute;
+  top: 25px;
+  right: -5px;
+  width: 165px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #5C5451;
 }
 
 * {
