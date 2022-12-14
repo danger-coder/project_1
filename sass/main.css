@@ -357,10 +357,10 @@ a {
   height: 550px;
   width: 350px;
 }
-.document .document_body .navigation .scrollable .first_ul_list, .document .document_body .navigation .scrollable .first_ul_list2 {
+.document .document_body .navigation .scrollable .first_ul_list, .document .document_body .navigation .scrollable .first_ul_list4, .document .document_body .navigation .scrollable .first_ul_list3, .document .document_body .navigation .scrollable .first_ul_list2 {
   position: relative;
 }
-.document .document_body .navigation .scrollable .first_ul_list .add_folder, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder {
+.document .document_body .navigation .scrollable .first_ul_list .add_folder, .document .document_body .navigation .scrollable .first_ul_list4 .add_folder, .document .document_body .navigation .scrollable .first_ul_list3 .add_folder, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder {
   position: absolute;
   width: 163px;
   height: 72px;
@@ -375,7 +375,7 @@ a {
   z-index: 2;
   cursor: pointer;
 }
-.document .document_body .navigation .scrollable .first_ul_list .add_folder .folder, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .folder {
+.document .document_body .navigation .scrollable .first_ul_list .add_folder .folder, .document .document_body .navigation .scrollable .first_ul_list4 .add_folder .folder, .document .document_body .navigation .scrollable .first_ul_list3 .add_folder .folder, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .folder {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -384,10 +384,10 @@ a {
   border-radius: 5px;
   padding: 5px;
 }
-.document .document_body .navigation .scrollable .first_ul_list .add_folder .folder:hover, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .folder:hover {
+.document .document_body .navigation .scrollable .first_ul_list .add_folder .folder:hover, .document .document_body .navigation .scrollable .first_ul_list4 .add_folder .folder:hover, .document .document_body .navigation .scrollable .first_ul_list3 .add_folder .folder:hover, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .folder:hover {
   background: #E4F6FF;
 }
-.document .document_body .navigation .scrollable .first_ul_list .add_folder .add_task, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .add_task {
+.document .document_body .navigation .scrollable .first_ul_list .add_folder .add_task, .document .document_body .navigation .scrollable .first_ul_list4 .add_folder .add_task, .document .document_body .navigation .scrollable .first_ul_list3 .add_folder .add_task, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .add_task {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -395,7 +395,7 @@ a {
   padding: 5px;
   width: 150px;
 }
-.document .document_body .navigation .scrollable .first_ul_list .add_folder .add_task:hover, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .add_task:hover {
+.document .document_body .navigation .scrollable .first_ul_list .add_folder .add_task:hover, .document .document_body .navigation .scrollable .first_ul_list4 .add_folder .add_task:hover, .document .document_body .navigation .scrollable .first_ul_list3 .add_folder .add_task:hover, .document .document_body .navigation .scrollable .first_ul_list2 .add_folder .add_task:hover {
   background: #E4F6FF;
 }
 .document .document_body .navigation .scrollable .first_ul_list2 .add_folder2 {
@@ -434,6 +434,82 @@ a {
   width: 150px;
 }
 .document .document_body .navigation .scrollable .first_ul_list2 .add_folder2 .add_task:hover {
+  background: #E4F6FF;
+}
+.document .document_body .navigation .scrollable .first_ul_list3 .add_folder3 {
+  position: absolute;
+  width: 163px;
+  height: 72px;
+  left: 37px;
+  background: red;
+  top: 20px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 5px 5px 8px 5px;
+  display: none;
+  z-index: 2;
+  cursor: pointer;
+}
+.document .document_body .navigation .scrollable .first_ul_list3 .add_folder3 .folder {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 150px;
+  height: 31px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.document .document_body .navigation .scrollable .first_ul_list3 .add_folder3 .folder:hover {
+  background: #E4F6FF;
+}
+.document .document_body .navigation .scrollable .first_ul_list3 .add_folder3 .add_task {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+}
+.document .document_body .navigation .scrollable .first_ul_list3 .add_folder3 .add_task:hover {
+  background: #E4F6FF;
+}
+.document .document_body .navigation .scrollable .first_ul_list4 .add_folder4 {
+  position: absolute;
+  width: 163px;
+  height: 72px;
+  left: 37px;
+  background: red;
+  top: 20px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 5px 5px 8px 5px;
+  display: none;
+  z-index: 2;
+  cursor: pointer;
+}
+.document .document_body .navigation .scrollable .first_ul_list4 .add_folder4 .folder {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 150px;
+  height: 31px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.document .document_body .navigation .scrollable .first_ul_list4 .add_folder4 .folder:hover {
+  background: #E4F6FF;
+}
+.document .document_body .navigation .scrollable .first_ul_list4 .add_folder4 .add_task {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+}
+.document .document_body .navigation .scrollable .first_ul_list4 .add_folder4 .add_task:hover {
   background: #E4F6FF;
 }
 .document .document_body .navigation::-webkit-scrollbar-track {
@@ -482,6 +558,13 @@ a {
 .document .document_body .navigation .primary p, .document .document_body .navigation .primary4 p, .document .document_body .navigation .primary3 p, .document .document_body .navigation .primary2 p {
   color: #5C5451;
 }
+.document .document_body .navigation .primary3 .plus3 {
+  filter: invert(1);
+  width: 16px;
+  height: 16px;
+  margin-left: 50px;
+  display: none;
+}
 .document .document_body .right_body .task_description h1 {
   font-family: "Poppins";
   font-style: normal;
@@ -492,8 +575,8 @@ a {
   margin-top: 20px;
 }
 .document .document_body .right_body .task_description .task_body {
-  margin-top: 10px;
-  max-width: 958px;
+  margin-top: 20px;
+  max-width: 968px;
   height: 107px;
   background: #FFFFFF;
   border: 1px solid #DBDBDB;
@@ -509,6 +592,8 @@ a {
   display: flex;
   align-items: center;
   padding-left: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   gap: 113px;
   height: 53px;
   background: #F2FAFF;
@@ -522,6 +607,8 @@ a {
 }
 .document .document_body .right_body .task_description .task_body .div_2 {
   gap: 98px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background: #FFFFFF;
 }
 .document .document_body .right_body .task_description .task_body .div_2 span {
@@ -538,7 +625,7 @@ a {
 }
 .document .document_body .right_body .document_footer {
   width: 968px;
-  margin-top: 47px;
+  margin-top: 30px;
 }
 .document .document_body .right_body .document_footer ul {
   display: flex;
@@ -656,6 +743,8 @@ a {
   border-right: 1px solid #DBDBDB;
   border-radius: 0px;
   background-color: #FFFFFF;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .document .document_body .right_body .document_footer .equipment_body .eq_3 input, .document .document_body .right_body .document_footer .notes_body .eq_3 input, .document .document_body .right_body .document_footer .parts_body .eq_3 input, .document .document_body .right_body .document_footer .picture_body .eq_3 input, .document .document_body .right_body .document_footer .subtask_body .eq_3 input {
   width: 438px;
@@ -909,6 +998,9 @@ a {
   color: #928C8A;
   width: 165px;
 }
+.document .document_body .right_body .document_footer .parts_body {
+  height: 125px;
+}
 .document .document_body .right_body .document_footer .parts_body .eq_1 .part_right, .document .document_body .right_body .document_footer .parts_body .eq_2 .part_right, .document .document_body .right_body .document_footer .parts_body .eq_3 .part_right {
   display: flex;
   align-items: center;
@@ -1084,6 +1176,7 @@ a {
   z-index: 3;
   background: #FFFFFF;
   border-radius: 8px;
+  display: none;
   padding: 20px;
 }
 .openAddFolder p {
@@ -1099,6 +1192,7 @@ a {
   align-items: center;
   gap: 40px;
   margin-top: 20px;
+  margin-left: 50px;
 }
 .openAddFolder .folder_container .search_folder p {
   font-family: "Poppins";
@@ -1107,6 +1201,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #928C8A;
+  cursor: pointer;
 }
 .openAddFolder .folder_container .new_folder p {
   font-family: "Poppins";
@@ -1116,17 +1211,675 @@ a {
   line-height: 24px;
   color: #3AB4F2;
   position: relative;
+  cursor: pointer;
 }
 .openAddFolder .folder_container .new_folder p::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 3px;
-  height: 109px;
+  bottom: -5px;
+  left: -8px;
+  width: 109px;
+  height: 3px;
   background: #3AB4F2;
   border-radius: 0px 10px 10px 0px;
-  transform: rotate(-90deg);
+}
+.openAddFolder .input_1 {
+  margin-top: 28px;
+  margin-left: 40px;
+}
+.openAddFolder .input_1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.openAddFolder .input_1 input {
+  margin-top: 5px;
+  width: 511px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 17px;
+}
+.openAddFolder .input_1 input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.openAddFolder .input_1 input:-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.openAddFolder .input_1 input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.openAddFolder .input_2 {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.openAddFolder .input_2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.openAddFolder .input_2 .input_div_container {
+  margin-top: 5px;
+  width: 511px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 28px;
+}
+.openAddFolder .input_2 .input_div_container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #312C2A;
+}
+.openAddFolder .input_2 .input_div_container img {
+  cursor: pointer;
+}
+.openAddFolder .add_folder_btns {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.openAddFolder .add_folder_btns .cancel {
+  box-sizing: border-box;
+  width: 174px;
+  height: 50px;
+  border: 1px solid #C1BBB9;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+  cursor: pointer;
+}
+.openAddFolder .add_folder_btns .save {
+  width: 174px;
+  height: 50px;
+  background: #3AB4F2;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.addTaskFolder {
+  width: 969px;
+  height: 507px;
+  left: 321px;
+  top: 180px;
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 8px;
+  z-index: 3;
+  padding: 20px;
+  display: none;
+}
+.addTaskFolder .task_container_div {
+  display: block;
+}
+.addTaskFolder .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #312C2A;
+}
+.addTaskFolder .taskContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.addTaskFolder .taskContainer .search_task {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #928C8A;
+  cursor: pointer;
+  position: relative;
+}
+.addTaskFolder .taskContainer .search_task.task_active::before {
+  position: absolute;
+  content: "";
+  width: 110%;
+  height: 3px;
+  bottom: -5px;
+  left: -5px;
+  background: #3AB4F2;
+  border-radius: 10px 10px 10px 0px;
+}
+.addTaskFolder .taskContainer .new_task {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #928C8A;
+  position: relative;
+  cursor: pointer;
+}
+.addTaskFolder .taskContainer .new_task.task_active {
+  color: #3AB4F2;
+}
+.addTaskFolder .taskContainer .new_task.task_active::before {
+  position: absolute;
+  content: "";
+  width: 97px;
+  height: 3px;
+  bottom: -5px;
+  left: -9px;
+  background: #3AB4F2;
+  border-radius: 10px 10px 10px 0px;
+}
+.addTaskFolder .task_container_div .first_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row {
+  display: flex;
+  align-items: center;
+}
+.addTaskFolder .task_container_div .first_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name, .addTaskFolder .task_container_div .first_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type, .addTaskFolder .task_container_div .first_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type {
+  margin-left: 40px;
+  margin-top: 28px;
+}
+.addTaskFolder .task_container_div .first_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name p, .addTaskFolder .task_container_div .first_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type p, .addTaskFolder .task_container_div .first_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.addTaskFolder .task_container_div .first_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name input, .addTaskFolder .task_container_div .first_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type input, .addTaskFolder .task_container_div .first_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type input, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type input, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type input, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type input, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type input {
+  width: 435px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  padding-left: 17px;
+}
+.addTaskFolder .task_container_div .first_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name input::-moz-placeholder, .addTaskFolder .task_container_div .first_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type input::-moz-placeholder, .addTaskFolder .task_container_div .first_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type input::-moz-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type input::-moz-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .first_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name input:-ms-input-placeholder, .addTaskFolder .task_container_div .first_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .first_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type input:-ms-input-placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type input:-ms-input-placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type input:-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .first_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .task_name input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .task_name input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .task_name input::placeholder, .addTaskFolder .task_container_div .first_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type input::placeholder, .addTaskFolder .task_container_div .first_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type input::placeholder, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type input::placeholder, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .first_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type, .addTaskFolder .task_container_div .first_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type {
+  margin-left: 20px;
+}
+.addTaskFolder .task_container_div .first_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type div, .addTaskFolder .task_container_div .first_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type div, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type div, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type div, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type div, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type div {
+  width: 207.5px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.addTaskFolder .task_container_div .first_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type div p, .addTaskFolder .task_container_div .first_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+  margin-right: 5px;
+}
+.addTaskFolder .task_container_div .first_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .equipement_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .equipement_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .equipement_type div img, .addTaskFolder .task_container_div .first_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type div img, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type div img, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type div img, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type div img {
+  cursor: pointer;
+}
+.addTaskFolder .task_container_div .first_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .six_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .eleven_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .six_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .eleven_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .nine_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .nine_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .fourth_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .fourth_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .permistion_setup .third_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_setup .third_row .access_type div p, .addTaskFolder .task_container_div .container .mains .permission_scroll .scroll_div .document_btns .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .permistion_setup .addTaskFolder .task_container_div .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_setup .addTaskFolder .task_container_div .third_row .access_type div p, .container .mains .permission_scroll .scroll_div .document_btns .addTaskFolder .task_container_div .third_row .access_type div p {
+  margin-right: 33px;
+}
+.addTaskFolder .task_container_div .second_row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.addTaskFolder .task_container_div .second_row .trade_type, .addTaskFolder .task_container_div .second_row .frequuency, .addTaskFolder .task_container_div .second_row .access_type {
+  margin-left: 40px;
+}
+.addTaskFolder .task_container_div .second_row .trade_type p, .addTaskFolder .task_container_div .second_row .frequuency p, .addTaskFolder .task_container_div .second_row .access_type p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.addTaskFolder .task_container_div .second_row .trade_type div, .addTaskFolder .task_container_div .second_row .frequuency div, .addTaskFolder .task_container_div .second_row .access_type div {
+  width: 207.5px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: space-between;
+  padding-right: 3.5px;
+  margin-top: 5px;
+}
+.addTaskFolder .task_container_div .second_row .trade_type div p, .addTaskFolder .task_container_div .second_row .frequuency div p, .addTaskFolder .task_container_div .second_row .access_type div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .second_row .frequuency {
+  margin-right: 20px;
+}
+.addTaskFolder .task_container_div .second_row .frequuency div {
+  width: 139px;
+}
+.addTaskFolder .task_container_div .second_row .rpm {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.addTaskFolder .task_container_div .second_row .rpm p {
+  margin-right: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.addTaskFolder .task_container_div .third_row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.addTaskFolder .task_container_div .third_row .resource, .addTaskFolder .task_container_div .third_row .no_of_people {
+  margin-left: 40px;
+}
+.addTaskFolder .task_container_div .third_row .resource p, .addTaskFolder .task_container_div .third_row .no_of_people p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+}
+.addTaskFolder .task_container_div .third_row .resource input, .addTaskFolder .task_container_div .third_row .no_of_people input {
+  width: 435px;
+  height: 56px;
+  background: #F2F6FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.addTaskFolder .task_container_div .third_row .resource input::-moz-placeholder, .addTaskFolder .task_container_div .third_row .no_of_people input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .third_row .resource input:-ms-input-placeholder, .addTaskFolder .task_container_div .third_row .no_of_people input:-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .third_row .resource input::placeholder, .addTaskFolder .task_container_div .third_row .no_of_people input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #C1BBB9;
+}
+.addTaskFolder .task_container_div .third_row .no_of_people {
+  margin-left: 20px;
+}
+.addTaskFolder .task_container_div .add_task_btnss {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  margin-top: 20px;
+}
+.addTaskFolder .task_container_div .add_task_btnss .cancel {
+  box-sizing: border-box;
+  width: 174px;
+  height: 50px;
+  border: 1px solid #C1BBB9;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+  cursor: pointer;
+}
+.addTaskFolder .task_container_div .add_task_btnss .save_change {
+  width: 174px;
+  border: none;
+  height: 50px;
+  background: #3AB4F2;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.addTaskFolder .search_task_container {
+  display: none;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 1158px;
+  height: 568px;
+  background: #FFFFFF;
+  border: 0.5px solid #DBDBDB;
+  box-shadow: 2px 2px 23px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.addTaskFolder .search_task_container .tttt {
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+.addTaskFolder .search_task_container .tttt .search_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1158px;
+  height: 60px;
+  background: #E5EBFF;
+  border-radius: 10px 10px 0px 0px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #312C2A;
+  text-align: left;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 30.95px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(2) {
+  white-space: pre;
+  padding-right: 57px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(3) {
+  padding-right: 48px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(4) {
+  padding-right: 69px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(5) {
+  white-space: pre;
+  padding-right: 48px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(6) {
+  padding-right: 58px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(7) {
+  white-space: pre;
+  padding-right: 59px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(8) {
+  padding-right: 56px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(9) {
+  padding-right: 57px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th:nth-child(10) {
+  padding-right: 20px;
+}
+.addTaskFolder .search_task_container .tttt .search_table th .minus_icon {
+  height: 16px;
+  width: 16.05px;
+  background: #FFFFFF;
+  border: 0.5px solid #C1BBB9;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.addTaskFolder .search_task_container .tttt .search_table th .minus_icon img {
+  width: 8px;
+}
+.addTaskFolder .search_task_container .tttt .sec {
+  border-bottom: 0.5px solid #DBDBDB;
+}
+.addTaskFolder .search_task_container .tttt .sec td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5C5451;
+  text-align: left;
+  display: inline-block;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 30.95px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(1) input {
+  height: 16px;
+  width: 16px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(2) {
+  white-space: pre;
+  width: 90px;
+  margin-right: 48px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(3) {
+  width: 90px;
+  margin-right: 138px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(5) {
+  white-space: pre;
+  width: 90px;
+  margin-right: 48px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(6) {
+  width: 90px;
+  margin-right: 44px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(7) {
+  white-space: pre;
+  width: 90px;
+  margin-right: 44px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(8) {
+  width: 90px;
+  margin-right: 33px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(9) {
+  width: 90px;
+  margin-right: 32px;
+}
+.addTaskFolder .search_task_container .tttt .sec td:nth-child(10) {
+  padding-right: 20px;
+}
+.addTaskFolder .table_footers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 57px;
+  background: #FFFFFF;
+  border: 0.5px solid #DBDBDB;
+  border-bottom-left-radius: 10px;
+  border-top: none;
+  border-bottom-right-radius: 10px;
+}
+.addTaskFolder .table_footers .show p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5C5451;
+  margin-left: 20px;
+}
+.addTaskFolder .table_footers .navigation_btns {
+  display: flex;
+}
+.addTaskFolder .table_footers .left {
+  display: flex;
+  align-items: center;
+}
+.addTaskFolder .table_footers .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5C5451;
+  margin-right: 11px;
+}
+.addTaskFolder .table_footers .right {
+  display: flex;
+  align-items: center;
+}
+.addTaskFolder .table_footers .right .left_btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px 5px 6px;
+  gap: 10px;
+  width: 121px;
+  height: 34px;
+  border: 0.5px solid #C1BBB9;
+  border-radius: 8px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.addTaskFolder .table_footers .right .left_btn button {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+  cursor: pointer;
+}
+.addTaskFolder .table_footers .right .right_btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding: 5px 20px 5px 30px;
+  gap: 10px;
+  margin-right: 20px;
+  width: 120px;
+  height: 34px;
+  cursor: pointer;
+  border: 0.5px solid #C1BBB9;
+  border-radius: 8px;
+}
+.addTaskFolder .table_footers .right .right_btn button {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5451;
+  cursor: pointer;
 }
 
 .signin {
@@ -2102,6 +2855,7 @@ a {
 }
 .container .main .table {
   margin-top: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 .container .main .table .head th:last-child {
   padding-left: 40px;
@@ -2219,6 +2973,12 @@ a {
 }
 .container .main .table .row .action_btn .slider.round:before {
   border-radius: 50%;
+}
+.container .main .table_footer {
+  background: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .column-container {
@@ -2538,6 +3298,310 @@ a {
   color: #5C5451;
 }
 
+.container .main .maintenance_container {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 1118px;
+  height: 600px;
+  overflow: hidden;
+  background: #Fff;
+  position: fixed;
+  overflow: scroll;
+}
+.container .main .maintenance_container::-webkit-scrollbar {
+  display: none;
+}
+.container .main .maintenance_container .maintenance_content {
+  padding-left: 60px;
+  padding-top: 44px;
+}
+.container .main .maintenance_container .maintenance_content .top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.container .main .maintenance_container .maintenance_content .top div > img {
+  width: 88px;
+  height: 96.61px;
+}
+.container .main .maintenance_container .maintenance_content .top .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .top .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .top .title p:first-child {
+  margin-top: 7px;
+}
+.container .main .maintenance_container .maintenance_content .top .title p span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5C5451;
+  margin-right: 15px;
+}
+.container .main .maintenance_container .maintenance_content .top .title p .equation_item {
+  margin-right: 25px;
+}
+.container .main .maintenance_container .maintenance_content .line {
+  width: 998px;
+  height: 5px;
+  background: #018D9B;
+  border-radius: 34px;
+  margin-top: 5px;
+}
+.container .main .maintenance_container .maintenance_content .failure_analysis {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.container .main .maintenance_container .maintenance_content .failure_analysis img {
+  width: 30px;
+  height: 30px;
+}
+.container .main .maintenance_container .maintenance_content .failure_analysis h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.container .main .maintenance_container .maintenance_content .function {
+  margin-top: 10px;
+}
+.container .main .maintenance_container .maintenance_content .function .function_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .function .function_title span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5C5451;
+  margin-right: 5px;
+}
+.container .main .maintenance_container .maintenance_content .function .line2 {
+  width: 998px;
+  height: 1px;
+  background: #C1BBB9;
+  border-radius: 66px;
+  position: relative;
+  margin-top: 4px;
+}
+.container .main .maintenance_container .maintenance_content .function .line2::before {
+  position: absolute;
+  content: "";
+  width: 82px;
+  height: 5px;
+  left: 0px;
+  top: -2.5px;
+  background: #F2783A;
+  border-radius: 34px;
+}
+.container .main .maintenance_container .maintenance_content .function_list {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left div:nth-child(2) {
+  margin-top: 20px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left div:nth-child(2) p {
+  max-width: 450px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left .row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left .row div p {
+  width: 210px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .left .row div:nth-child(2) {
+  margin-top: 0px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .right div {
+  margin-top: -43px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .right h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .function_list .right ul {
+  padding-left: 20px;
+}
+.container .main .maintenance_container .maintenance_content .function_list .right ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table {
+  box-sizing: border-box;
+  width: 998px;
+  height: 595px;
+  margin-top: 10px;
+  border: 1px solid #928C8A;
+  border-radius: 4px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads {
+  height: 50px;
+  background: #EFEFEF;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #312C2A;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(1) {
+  width: 66px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-top-left-radius: 4px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(2) {
+  width: 61px;
+  padding-right: 20px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(3) {
+  width: 33px;
+  padding-right: 226px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(4) {
+  white-space: pre;
+  width: 126px;
+  padding-right: 183px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(5) {
+  width: 76px;
+  padding-right: 30px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(5) div p:first-child {
+  white-space: pre;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(6) {
+  width: 66px;
+  padding-right: 20px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table .heads th:nth-child(7) {
+  width: 51px;
+  padding-right: 10px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr {
+  height: 75px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #C1BBB9;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #312C2A;
+  height: 75px;
+  box-sizing: border-box;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .cbm_response {
+  margin-bottom: -20px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .cbm_response p {
+  margin-bottom: 25px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .check_condition {
+  margin-top: -10px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .check_condition p:first-child {
+  width: 239px;
+  margin-bottom: 10px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .contactor {
+  margin-top: -32px;
+  width: 289px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .contactor2 {
+  margin-top: -20px;
+  width: 289px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .hour_day {
+  margin-top: -23px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .hour_day p:first-child {
+  margin-bottom: 10px;
+}
+.container .main .maintenance_container .maintenance_content .maintenance_table tr td .oo {
+  margin-top: -32px;
+}
+.container .main .maintenance_container .maintenance_content .footer_line {
+  width: 998px;
+  height: 5px;
+  margin-top: 26px;
+  background: #018D9B;
+  border-radius: 34px;
+}
+.container .main .maintenance_container .maintenance_content .end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-right: 60px;
+}
+.container .main .maintenance_container .maintenance_content .end p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #928C8A;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -2738,7 +3802,6 @@ body {
   top: 0;
   right: 0;
   width: calc(100% - 194px);
-  height: 137vh;
   overflow-x: hidden;
   padding-left: 30px;
   padding-right: 30px;

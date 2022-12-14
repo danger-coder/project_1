@@ -117,6 +117,7 @@
 
         .table {
             margin-top: 20px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 
             .head {
                 th {
@@ -261,6 +262,13 @@
                     }
                 }
             }
+        }
+
+        .table_footer {
+            background: #fff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
         }
 
     }

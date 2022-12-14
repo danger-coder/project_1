@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import "./ttcol";
 @import "./tttcol";
+@import "./singleCol";
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .tcolumn-container {
   // border: 1px solid red;
   width: 620px;
@@ -48,6 +50,7 @@
 
     .right-col {
       display: flex;
+
       // border: 1px solid red;
       h2 {
         width: 205px;
@@ -70,9 +73,11 @@
         width: 50px;
         height: 50px;
       }
+
       table {
         margin-top: 10px;
         margin-right: 18px;
+
         tr {
           td {
             text-align: right;
@@ -114,7 +119,7 @@
   .line3 {
     position: relative;
     // margin-top: 49.4px;
-    
+
     width: 620px;
     height: 4.17px;
 
@@ -152,7 +157,7 @@
     justify-content: space-between;
 
     p {
-        margin: 0;
+      margin: 0;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
@@ -166,6 +171,7 @@
 
   .mid {
     margin: 10px 100px;
+
     img {
       width: 420px;
       height: 259px;
@@ -184,6 +190,7 @@
       border-spacing: 0;
       width: 100%;
       padding-bottom: 5px;
+
       tr {
         th {
           background: #efefef;
@@ -215,7 +222,7 @@
           font-size: 12px;
           line-height: 18px;
           /* identical to box height */
-        //   width: 300px;
+          //   width: 300px;
           color: #312c2a;
 
           &:first-child {

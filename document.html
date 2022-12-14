@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="sass/main.css">
 </head>
 
-<body>
+<body class="body">
     <div class="container">
         <div class='sidebar'>
             <div class="logo">
@@ -174,7 +174,7 @@
                                 </ul>
                                 <div class="add_folder">
                                     <div class="folder"><img src="/assets/addfolder.svg" alt="">
-                                        <p>Add Folder</p>
+                                        <p id="add1">Add Folder</p>
                                     </div>
                                     <div class="add_task"><img src="/assets//addTask.svg" alt="">
                                         <p>Add Task</p>
@@ -243,13 +243,14 @@
                                     </div>
                                 </div>
                             </ul>
-                            <ul class="first_ul_list">
+                            <ul class="first_ul_list3">
                                 <li>
                                     <div class="primary3">
                                         <img src="/assets/right_triangle.png" alt=""> <img src="/assets/file_icon.png"
                                             alt="" class="file">
                                         <p>Primary</p>
-                                        <img src="/assets/Add_round.png" alt="" class="plus">
+                                        <img src="/assets/Add_round.png" alt="" id="plus3" class="plus"
+                                            style="filter: invert(1);">
                                     </div>
                                 </li>
                                 <ul class="nested3">
@@ -296,7 +297,7 @@
 
 
                                 </ul>
-                                <div class="add_folder">
+                                <div class="add_folder3">
                                     <div class="folder"><img src="/assets/addfolder.svg" alt="">
                                         <p>Add Folder</p>
                                     </div>
@@ -305,13 +306,13 @@
                                     </div>
                                 </div>
                             </ul>
-                            <ul class="first_ul_list">
+                            <ul class="first_ul_list4">
                                 <li>
                                     <div class="primary4">
                                         <img src="/assets/right_triangle.png" alt=""> <img src="/assets/file_icon.png"
                                             alt="" class="file">
                                         <p>Primary</p>
-                                        <img src="/assets/Add_round.png" alt="" class="plus">
+                                        <img src="/assets/Add_round.png" alt="" id="plus4" class="plus">
                                     </div>
                                 </li>
                                 <ul class="nested4">
@@ -358,9 +359,9 @@
 
 
                                 </ul>
-                                <div class="add_folder">
+                                <div class="add_folder4">
                                     <div class="folder"><img src="/assets/addfolder.svg" alt="">
-                                        <p>Add Folder</p>
+                                        <p id="">Add Folder</p>
                                     </div>
                                     <div class="add_task"><img src="/assets//addTask.svg" alt="">
                                         <p>Add Task</p>
@@ -372,7 +373,7 @@
                     </div>
                     <div class="right_body">
                         <div class="task_description">
-                            <h1>Task Description</h1>
+                          
                             <div class="task_body">
                                 <div class="div_1">
                                     <p>Task Name: <span>Task 1</span></p>
@@ -618,7 +619,294 @@
                     <p>New Folder</p>
                 </div>
             </div>
+
+            <div class="input_1">
+                <p>Name</p>
+                <input type="text" placeholder="Enter folder name">
+            </div>
+            <div class="input_2">
+                <p>Folder Type</p>
+                <div class="input_div_container">
+                    <p>Equipment</p>
+                    <img src="/assets/arrowDD.svg" alt="">
+                </div>
+            </div>
+            <div class="add_folder_btns">
+                <button class="cancel" id="cancel">Cancel</button>
+                <button class="save">Save Changes</button>
+
+            </div>
         </div>
+
+        <div class="addTaskFolder">
+            <p class="title">Add Task</p>
+            <div class="taskContainer">
+                <div>
+                    <p class="search_task ">Search Task</p>
+                </div>
+                <div>
+                    <p class="new_task task_active ">New Task</p>
+                </div>
+            </div>
+            <div class="task_container_div">
+                <div class="first_row">
+                    <div class="task_name">
+                        <p>Task Name</p>
+                        <input type="text" placeholder="Enter task name">
+                    </div>
+                    <div class="equipement_type">
+                        <p>Equipment Type</p>
+                        <div>
+                            <p>Select equipment type</p> <img src="/assets/expadnLeftdown.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="access_type">
+                        <p>Access Type</p>
+                        <div>
+                            <p>Select access type</p> <img src="/assets/expadnLeftdown.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="second_row">
+                    <div class="trade_type">
+                        <p>Trade Type</p>
+                        <div>
+                            <p>Select trade type</p> <img src="/assets/expadnLeftdown.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="access_type">
+                        <p>Strategy</p>
+                        <div>
+                            <p>Select strategy</p> <img src="/assets/expadnLeftdown.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="frequuency">
+                        <p>Frequency</p>
+                        <div>
+                            <p>Enter frequency</p>
+                        </div>
+                    </div>
+                    <div class="rpm">
+                        <p>RPM</p>
+                        <img src="/assets/arrowdown.png" alt="">
+                    </div>
+
+
+                </div>
+                <div class="third_row">
+                    <div class="resource">
+                        <p>Resource</p>
+
+
+                        <input type="text" placeholder="Enter resource">
+                    </div>
+                    <div class="no_of_people">
+                        <p>No. of People</p>
+                        <input type="text" placeholder="Enter No. of people">
+
+                    </div>
+                </div>
+                <div class="add_task_btnss">
+                    <button class="cancel" id="close">
+                        cancel
+                    </button>
+                    <button class="save_change">
+                        Save Changes
+                    </button>
+                </div>
+            </div>
+            <div class="search_task_container">
+                <table class="tttt">
+                    <tr class="search_table">
+                        <th>
+                            <div class="minus_icon">
+                                <img src="./assets/minus_search_task.svg" alt="">
+                            </div>
+                        </th>
+                        <th>Task Name</th>
+                        <th>Equipment Type</th>
+                        <th>FMEA</th>
+                        <th>Access Type</th>
+                        <th>Frequency</th>
+                        <th>Trade Type</th>
+                        <th>Strategy</th>
+                        <th>Resource</th>
+                        <th>No. of Poeple</th>
+
+                    </tr>
+
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 1</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 2</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 3</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 4</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 5</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 6</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 7</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 8</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 9</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 10</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                    <tr class="sec">
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Task 11</td>
+                        <td>Motor</td>
+                        <td></td>
+                        <td>Online</td>
+                        <td>10/kg</td>
+                        <td>Engineering</td>
+                        <td>RPM</td>
+                        <td>10</td>
+                        <td>13</td>
+
+                    </tr>
+                </table>
+                <div class="table_footers">
+                    <div class="show">
+                        <p>Showing 1-11 of 35 tasks</p>
+                    </div>
+                    <div class="navigation_btns">
+                        <div class="left">
+                            <p>Show 11 tasks</p>
+                            <img src="/assets/arrowdown.png" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="left_btn">
+                                <img src="/assets/Expand_left.png" alt="">
+                                <button>Previous</button>
+                            </div>
+                            <div class="right_btn">
+                                <button>Next</button>
+                                <img src="/assets/rightarrow.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
 
     </div>
     <script src="/js/main.js"></script>

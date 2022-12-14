@@ -7,6 +7,7 @@
 @import "../sass/equipmentTable";
 @import "../sass/twoColumn.scss";
 @import "../sass/rolesTable";
+@import "../sass/equipmentMaintenance";
 
 * {
     margin: 0;
@@ -301,7 +302,7 @@ body {
         right: 0;
         width: calc(100% - 194px);
         // overflow-y: scroll;
-        height: 137vh;
+        // height: 137vh;
         overflow-x: hidden;
         padding-left: 30px;
         padding-right: 30px;
