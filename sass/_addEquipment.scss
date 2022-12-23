@@ -9,6 +9,159 @@
     overflow-y: hidden;
 }
 
+
+.topbar_addequipment {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    .right {
+        display: flex;
+        align-items: center;
+        padding-top: 35px;
+
+
+        .box-avtar {
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+
+            .bell_icon {
+                border: 1px solid #C1BBB9;
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                margin-left: 30px;
+                cursor: pointer;
+
+                position: relative;
+
+                span {
+                    position: absolute;
+                    top: 9px;
+                    right: 12px;
+                    height: 6px;
+                    width: 6px;
+                    border-radius: 50%;
+                    background: #FF0000;
+                    border: 1px solid #fff;
+                }
+            }
+
+            .line {
+                height: 31px;
+                width: 2px;
+                background: #C1BBB9;
+                margin-left: 30px;
+            }
+
+            .name {
+                margin-left: 30px;
+                margin-right: 30px;
+
+                h2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.3px;
+                    color: #312C2A;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin: 0;
+                    padding: 0;
+                    color: #928C8A;
+                }
+            }
+
+            .avtar-img {
+                height: 50px;
+                width: 50px;
+                border: 2px solid #3AB4F2;
+                border-radius: 50%;
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+
+                img {
+                    height: 40.91px;
+                    width: 40.91px;
+                    border-radius: 50%;
+
+
+                }
+            }
+        }
+
+        .searchbox {
+
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 5.5px;
+            gap: 10.5px;
+            background: #F9F9FE;
+            border: 1px solid #C1BBB9;
+            border-radius: 12px;
+            width: 250px;
+            height: 40px;
+
+            ::placeholder {
+                color: #C1BBB9;
+            }
+
+            img {
+                padding: 0;
+            }
+
+            input {
+                background: transparent;
+                border: none;
+                outline: none;
+                padding-left: 13px;
+            }
+        }
+    }
+}
+
+.addequipment_heading{
+    padding-top: 10px;
+
+    .text {
+        h1 {
+            margin-top: 31px;
+            font-weight: 500;
+            font-family: 'Poppins';
+            font-size: 32px;
+            line-height: 48px;
+            color: #312C2A;
+            margin: 0;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            // line-height: 21px;
+            margin: 0;
+            color: #928C8A;
+        }
+    }
+}
 .form_title {
     font-family: 'Poppins';
     font-style: normal;
@@ -78,7 +231,7 @@ form {
             border-radius: 10px;
             margin-top: 5px;
 
-         
+
         }
     }
 
@@ -196,7 +349,7 @@ form {
                 font-size: 16px;
                 line-height: 24px;
                 color: #5C5451;
-             
+
 
                 span {
                     color: red;

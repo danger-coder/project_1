@@ -426,7 +426,7 @@ a {
                         display: flex;
                         align-items: center;
                         padding-left: 20px;
-                        
+
                         border-top-left-radius: 10px;
                         border-top-right-radius: 10px;
                         gap: 113px;
@@ -516,7 +516,7 @@ a {
                     background: #FFFFFF;
                     border: 1px solid #DBDBDB;
                     border-radius: 10px;
-                    
+
 
                     .eq_1 {
                         width: 968px;
@@ -1408,7 +1408,7 @@ a {
     position: absolute;
     background: #FFFFFF;
     border-radius: 8px;
-    z-index: 3;
+    z-index: 6;
     padding: 20px;
     display: none;
 
@@ -2048,4 +2048,16 @@ a {
         }
     }
 
+}
+
+.blur {
+    height: 100vh;
+    width: 100%;
+    background: #000000;
+    opacity: 0.2;
+    z-index: 3;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
 }

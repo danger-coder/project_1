@@ -154,6 +154,8 @@ add.forEach((adds, index) => {
         let folderContainer = document.querySelector(".openAddFolder");
 
         folderContainer.style.display = "block"
+        let blur = document.querySelector(".blur");
+        blur.style.display = "block";
     })
 
     // let container = document.querySelector(".body")
@@ -162,6 +164,8 @@ add.forEach((adds, index) => {
     cancel.addEventListener("click", () => {
         let folderContainer = document.querySelector(".openAddFolder");
         folderContainer.style.display = "none";
+        let blur = document.querySelector(".blur");
+        blur.style.display = "none";
     })
 })
 
@@ -179,6 +183,8 @@ add_task.forEach((adds, index) => {
         let folderContainer = document.querySelector(".addTaskFolder");
 
         folderContainer.style.display = "block"
+        let blur = document.querySelector(".blur");
+        blur.style.display = "block";
     })
 
     // let container = document.querySelector(".body")
@@ -187,6 +193,8 @@ add_task.forEach((adds, index) => {
     cancel.addEventListener("click", () => {
         let folderContainer = document.querySelector(".openAddFolder");
         folderContainer.style.display = "none";
+        let blur = document.querySelector(".blur");
+        blur.style.display = "none";
     })
 })
 
